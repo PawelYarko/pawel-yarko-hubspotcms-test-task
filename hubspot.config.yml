@@ -1,0 +1,12 @@
+defaultPortal: PawelYarko
+portals:
+  - name: PawelYarko
+    portalId: 26122390
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CO7u8fSmMBIJAA0AAAAA4A0DGJaxugwgkoiKFiju6QwyFKlxR0A5SgOR6ldaRjII4-ig47EFOjcAAARBAAAAeAAAAAAAAAAAAAAAAAAAAAQAAMAHAP7_MTwAAAYAAABgAAAAAAAAAAAAAAAAADACQhRkh8Wey0eRNOAi54O0Wtm41LGCLEoDZXUxUgBaAA
+        expiresAt: '2022-08-05T15:25:24.209Z'
+    personalAccessKey: >-
+      CiRldTEtYmEwYy05OGQ3LTQzMjktYjZmZC1kOGExYTljNmI3MzIQlrG6DBiSiIoWKhkABeaRgqGoGHYqi9zV3tUOZvM2ZFwmW1pJSgNldTE
