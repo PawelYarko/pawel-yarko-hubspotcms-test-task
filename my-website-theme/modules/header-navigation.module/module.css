@@ -1,0 +1,17 @@
+.header__nav{
+  
+}
+.header__nav--items{
+  font-size: 25px;
+  color: grey;
+  text-decoration: none;
+}
+
+.header__nav--items:hover{
+  cursor: pointer;
+  color: blue;
+}
+
+.is-active{
+  color: blue;
+}

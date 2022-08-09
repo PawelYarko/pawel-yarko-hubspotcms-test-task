@@ -1,0 +1,40 @@
+.main__menu{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.main__menu-list{
+  list-style: none;
+  height: 700px;
+  margin:0;
+  padding:0;
+  border-collapse: collapse;
+  border: 2px solid grey;
+  text-align: center;
+}
+
+.main__menu-row{
+  width:100%;
+  height: 50px;
+  border-bottom: 2px solid grey;
+  color: grey;
+  text-decoration: none;
+}
+
+.main__menu-link{
+  text-decoration: none;
+}
+
+.main__menu-row:hover{
+  color: white;
+  background-color: blue;
+  border: 2px solid blue;
+}
+
+.is-active-sidebar{
+  color: white;
+  background-color: blue;
+  border: 2px solid blue;
+}
