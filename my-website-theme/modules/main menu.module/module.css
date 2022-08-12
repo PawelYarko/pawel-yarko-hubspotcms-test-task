@@ -18,6 +18,9 @@
 .main__menu-row{
   width:100%;
   height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-bottom: 2px solid grey;
   color: grey;
   text-decoration: none;

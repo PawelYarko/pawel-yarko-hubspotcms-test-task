@@ -11,27 +11,38 @@
     {{ standard_header_includes }}
   </head>
   <body>
-    {% dnd_area "dnd_area"
-      label="Main section"
-    %}
-    {% module "module_166003539746212" path="/my-website-theme/modules/header-navigation", label="header-navigation" %}
-      {% dnd_section %}
-        {% dnd_column %}
-          {% dnd_row %}
-
-            {% dnd_module path="@hubspot/logo" %}
-            {% end_dnd_module %}
-
-          {% end_dnd_row %}
-          {% dnd_row %}
-
-            {% dnd_module path="@hubspot/rich_text" %}
-            {% end_dnd_module %}
-
-          {% end_dnd_row %}
-        {% end_dnd_column %}
-      {% end_dnd_section %}
-    {% end_dnd_area %}
-    {{ standard_footer_includes }}
+    <style>
+      body{
+        max-width:1400px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .header{
+         margin: 10px 20px 10px 20px;
+      }
+      .main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 40px;
+        grid-row-gap: 40px;
+      }
+      
+      .footer{
+        margin: 10px 20px 10px 20px;
+      }
+    </style> 
+    <header class="header">
+      {% module "module_16602720316075" path="/my-website-theme/modules/header-navigation", label="header-navigation" %}
+    </header>
+    <main class="main">
+      {% module "module_16602721064448" path="/my-website-theme/modules/main menu", label="main menu" %}
+      {% module "module_166027212186610" path="/my-website-theme/modules/text-content", label="text-content" %}
+      {% module "module_166027215169112" path="/my-website-theme/modules/calendar", label="calendar" %}
+    </main>
+    <footer class="footer">
+      {% module "module_166027219888616" path="/my-website-theme/modules/line", label="line" %}
+      {% module "module_166027218684314" path="/my-website-theme/modules/footer social links", label="footer social links" %}
+      {{ standard_footer_includes }}
+    </footer>
   </body>
 </html>
